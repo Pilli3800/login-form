@@ -1,111 +1,121 @@
-body{
-    font-family: 'Radio Canada', sans-serif;
-    background-image: url('./fondo.jpg') ;
-    background-size: cover;
-    background-repeat: no-repeat;  
+body {
+  font-family: "Radio Canada", sans-serif;
+  background-image: url("./fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .login-cuadrado {
-    width: 600px;
-    height: 800px;
-    background-color: black;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-    position: relative;
-    border-radius: 30px;
-    opacity: 0.7;
-    z-index: 1;
+  width: 600px;
+  height: 800px;
+  background-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  position: relative;
+  border-radius: 30px;
+  opacity: 0.7;
+  z-index: 1;
 }
 
-.login-icono{
-    width: 300px;
-    height: 300px;
-    z-index: 2;
-    border-radius: 50%;
-    border: 5px aquamarine ;
-    background-image: url("https://www.kindpng.com/picc/m/269-2697881_computer-icons-user-clip-art-transparent-png-icon.png");
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    top:-100px;
-    left:150px;
-    opacity: 1;
+.login-icono {
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+  border-radius: 50%;
+  border: 5px aquamarine;
+  background-image: url("https://www.kindpng.com/picc/m/269-2697881_computer-icons-user-clip-art-transparent-png-icon.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -100px;
+  left: 150px;
+  opacity: 1;
 }
 
-.nombre-login{
-    font-weight: 700;
-    color:white;
-    position: relative;
-    text-align: center;
-    top:240px;
-    text-align: center;
-
+.nombre-login {
+  font-weight: 700;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 240px;
+  text-align: center;
 }
-.login{
-    font-weight: 400;
-    color: white;
-    text-align: center;
-    position: relative;
-    top:270px;
-}
-
-.nombre-login{
+.login {
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 270px;
 }
 
-.input{
-    color: white;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    border-bottom: solid 1px white;
-    background: transparent;
-    height: 40px;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 300;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.nombre-login {
+}
+
+.input {
+  color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-bottom: solid 1px white;
+  background: transparent;
+  height: 40px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #ingresar {
-    width: 80%;
-    font-size: 20px;
-    border-radius: 20px;
-    background: purple;
-    color: white;
-    height: 50px;
-    font-weight: 700;
+  width: 80%;
+  font-size: 20px;
+  border-radius: 20px;
+  background: purple;
+  color: white;
+  height: 50px;
+  font-weight: 700;
+  border: none;
 }
 
-#ingresar:hover{
-    background-color: blanchedalmond;
-    color: black;
-    animation: pulse; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s; /* don't forget to set a duration! */
+#ingresar:hover {
+  background-color: blanchedalmond;
+  color: black;
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
 }
 
 .olvidar {
-    text-decoration: none;
-    left: 50px;
-    display: block;
-    position: relative;
-    top:300px;
-    left: 70px;
-}
-.redes{
-    text-decoration: none;
-    position: absolute;
-    justify-content: space-evenly;
-    right:80px;
-    bottom:30px;
-    
+  text-decoration: none;
+  left: 50px;
+  display: block;
+  position: relative;
+  top: 300px;
+  left: 70px;
 }
 
-.icono-red{
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
+.olvidar a {
+  text-decoration: none;
+}
+
+.olvidar a:hover {
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+  }
+  
+
+.redes {
+  text-decoration: none;
+  position: absolute;
+  justify-content: space-evenly;
+  right: 80px;
+  bottom: 30px;
+}
+
+.icono-red {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
 }
